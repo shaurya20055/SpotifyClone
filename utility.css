@@ -1,0 +1,55 @@
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.border{
+    border: 2px solid black;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+    color: white;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+/* WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark background */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #444; /* Dark gray thumb */
+    border-radius: 6px;
+    border: 2px solid #1e1e1e; /* Creates padding around thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #666; /* Lighter gray on hover */
+  }
+  
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #444 #1e1e1e; /* thumb color track color */
+  }
+  
